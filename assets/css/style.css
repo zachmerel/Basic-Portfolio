@@ -3,3 +3,12 @@ body{
     /* background-repeat: no-repeat; */
     /* background-size: 100%; */
 }
+.myname{
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    
+}
