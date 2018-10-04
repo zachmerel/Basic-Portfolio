@@ -10,5 +10,32 @@ body{
     width: 20%;
     float: left;
     font-family:'Courier New', Courier, monospace;
-    
 }
+
+.aboutme{
+    background-color: lightgray;
+    widows: 960px;
+    padding: 20px;
+}
+#contact{
+    float: right;
+    width: 10%
+}
+#portfolio{
+    float: right;
+    width: 10%
+}
+#index{
+    float: right;
+    width: 10%
+}
+#biopicture{
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+#bio{
+    font-size: x-large;
+}
+
