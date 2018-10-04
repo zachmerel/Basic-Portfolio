@@ -79,6 +79,16 @@ a:hover {
     color: #ffffff;
     width: 300px;
 }
+.footer_accent{
+    background: #4aaaa5;
+    height:5px;
+}
+.content_seperator{
+    background: #dddddd;
+    height: 1px;
+    width: 95%;
+    margin: auto;
+}
 #message_box{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -127,6 +137,7 @@ a:hover {
     font-size: x-large;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    padding: 20px;
 }
 
 #myname{
