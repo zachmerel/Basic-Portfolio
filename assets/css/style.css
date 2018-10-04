@@ -3,31 +3,93 @@ body{
     /* background-repeat: no-repeat; */
     /* background-size: 100%; */
 }
-.myname{
-    background-color: lightgray;
+header{
+    padding: 20px;
+    background: #ffffff;
+}
+footer{
+    background: #666666;
+}
+section {
     padding: 20px;
     margin-bottom: 20px;
-    width: 20%;
-    float: left;
-    font-family:'Courier New', Courier, monospace;
+    
+  }
+a:active {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
 }
-
-.aboutme{
-    background-color: lightgray;
-    widows: 960px;
+a:link {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.vl {
+    border: 1px solid #cccccc;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: -5;
+}
+.pagebuttons{
+    color: #dddddd;
     padding: 20px;
+    margin: 20px;
+}
+.contact_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #dddddd;
+    padding: 5px;
+}
+#message_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #dddddd;
+    padding: 5px;
+    height: 200px;
+    resize: both;
+    overflow: auto;
+}
+#submit_button{
+    background: #4aaaa5;
+    padding: 8px;
+    color: #ffffff;
+    width: 3%;
+}
+#content_area{
+    background: #ffffff;
+    
+    padding: 20px;
+    font: color #dddddd;
+}
+#pagetitle{
+    margin-bottom: 20px;
+    color: #4aaaa5;
 }
 #contact{
     float: right;
-    width: 10%
+    width: 10%;
 }
 #portfolio{
     float: right;
-    width: 10%
+    width: 10%;
 }
 #index{
     float: right;
-    width: 10%
+    width: 10%;
 }
 #biopicture{
     width: 170px;
@@ -37,5 +99,13 @@ body{
 }
 #bio{
     font-size: x-large;
+}
+
+#myname{
+    padding: 20px;
+    width: 5%;
+    float: left;
+    background: #4aaaa5;
+    color: #ffffff;
 }
 
