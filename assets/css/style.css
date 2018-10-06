@@ -88,7 +88,7 @@ a:hover {
     background: #dddddd;
     height: 1px;
     width: 95%;
-    margin: auto;
+    margin: 20px auto;
 }
 .header_width{
     width: 1000px;
@@ -157,6 +157,6 @@ a:hover {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 #name_text{
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
