@@ -43,14 +43,6 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
-.vl {
-    border: 1px solid #cccccc;
-    height: 10px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: -5;
-}
 .pagebuttons{
     color: #dddddd;
     padding: 20px;
@@ -75,10 +67,10 @@ a:hover {
     bottom: 3%;
     left: 50%;
     padding: 10px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -75%);
     background: #4aaaa5;
     color: #ffffff;
-    width: 300px;
+    width: 280px;
     z-index: 2;
 }
 .footer_accent{
