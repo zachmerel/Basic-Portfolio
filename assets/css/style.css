@@ -4,7 +4,6 @@ body{
     /* background-size: 100%; */
 }
 header{
-    padding: 20px;
     background: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -43,10 +42,16 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
-.pagebuttons{
-    color: #dddddd;
-    padding: 20px;
-    margin: 10px;
+.pagelinks{
+    float: right;
+    /* width: 8%; */
+}
+.copyright{
+    font-size: small;
+    bottom: 2px;
+    margin-top: 18px;
+    color: #ffffff;
+    text-align: center;
 }
 .contact_box{
     margin-top: 20px;
@@ -84,7 +89,7 @@ a:hover {
     margin: auto;
 }
 .header_width{
-    width: 960px;
+    width: 1000px;
     margin: auto;
 }
 .row1{
@@ -99,7 +104,7 @@ a:hover {
     padding: 20px;
     font: color #dddddd;
     width: 960px;
-    margin: 0px auto 100px auto;
+    margin: 20px auto 100px auto;
     border: 1px solid #dddddd;
    
 
@@ -127,18 +132,6 @@ a:hover {
     font-size: x-large;
     font-weight: bold;
 }
-#contact{
-    float: right;
-    width: 8%;
-}
-#portfolio{
-    float: right;
-    width: 8%;
-}
-#index{
-    float: right;
-    width: 8%;
-}
 #biopicture{
     width: 170px;
     height: 200px;
@@ -154,7 +147,7 @@ a:hover {
 
 #myname{
     padding: 20px;
-    width: 10%;
+    width: 15%;
     font-size: x-large;
     font-weight: bold;
     background: #4aaaa5;
